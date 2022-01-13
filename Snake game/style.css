@@ -1,0 +1,54 @@
+html, body {
+    margin: 10;
+    padding: 10;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;    
+    width: 40%;
+    background-color: black;
+    font-family: fantasy, Arial, Helvetica, sans-serif;
+}
+
+.grid {
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+    border: solid 1px white;
+    background-color: white;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    background-color: #46b072;
+}
+
+.apple {
+    background-color: #a60000;
+}
+
+h1 {
+    color: #46b072;
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+
+#start {
+    padding: 10px 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+    background-color: #46b072;
+    color: black;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #46b072;
+    font-size: 30px;
+}
